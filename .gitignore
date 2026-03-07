@@ -1,0 +1,27 @@
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets/
+
+# Build artifacts and dependencies
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
+.next/
+.nuxt/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code local files (session-specific, not shared)
+CLAUDE.local.md
+.claude/settings.local.json

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(//c/Users/emili/OneDrive/Pacific-Outcomes/**)",
+      "Edit(//c/Users/emili/OneDrive/Pacific-Outcomes/**)",
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/*.p12)",
+      "Read(**/*.pfx)",
+      "Read(**/credentials.json)",
+      "Read(**/secrets/**)",
+      "Edit(**/.env)",
+      "Edit(**/.env.*)",
+      "Edit(**/*.pem)",
+      "Edit(**/*.key)",
+      "Edit(**/*.p12)",
+      "Edit(**/*.pfx)",
+      "Edit(**/credentials.json)",
+      "Edit(**/secrets/**)"
+    ]
+  }
+}

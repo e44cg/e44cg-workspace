@@ -1,3 +1,6 @@
+# Universal safe spaces (_locked convention)
+**/_locked/**
+
 # Credentials and secrets
 **/.env
 **/.env.*

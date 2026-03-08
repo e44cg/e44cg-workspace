@@ -19,7 +19,7 @@ Default posture: this workspace operates independently from Pacific-Outcomes.
 
 - Never mention client names, engagement details, or NDA-covered materials here. This is absolute — no exceptions.
 - **Hard deny (Edit):** Cannot edit any Pacific-Outcomes file. Enforced by settings.json.
-- **Hard deny (Read):** Cannot read PO's sensitive paths: banking, taxes, NDA, client originals, `_locked` folders.
+- **Hard deny (Read):** Cannot read PO's sensitive paths: banking, taxes, recovery codes, NDA, client originals, confidential folders, `_locked` folders.
 - **Controlled cross-pollination is allowed** when Emilio initiates it — general PO files (strategy, outreach) remain readable. Follow the protocol in global `~/.claude/CLAUDE.md` (confirm scope, state risk, transfer only abstract patterns — never client data, log what was brought over).
 - If Emilio asks to replicate something from Pacific-Outcomes, default to asking him to describe what he wants. Only access source files if he explicitly says to.
 - **The `_locked` convention:** Any folder named `_locked` is globally denied (Read + Edit). Create `_locked` subfolders for personal sensitive data here too.
